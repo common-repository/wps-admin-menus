@@ -1,0 +1,171 @@
+.admin_menu_list ul,ol{
+	margin: 0 0 0 30px;
+}
+li{
+	padding:0 0 0 0;
+}
+
+
+
+td {
+	border-bottom: 1px #cbc9c9 solid;
+	padding: 5px;
+
+}
+th {
+	border:1px black;
+	background: #d2dede;
+    border: 1px solid #d1d1d1;
+    font-size: 12px;
+	padding: 6px;
+
+}
+.open_job_link{
+	text-align: center;
+}
+.open_job_link a {
+	font-size: 18px;
+	color: #606060;
+}
+.open_user_link {
+	font-size: 15px;
+	color: #606060;
+}
+.content{
+	margin: 5px 0 0 0;
+}
+
+
+.WPS_pre{
+	font-size: 14px;
+	background: black;
+	color: white;
+}
+
+
+/*tooltip*/
+.wps-help-tip {
+	cursor: help;
+}
+
+.ui-tooltip {
+	background: #333 !important;
+	border-radius: 3px !important;
+	box-shadow: 1px 1px 2px 1px rgba(214, 214, 214, 0.5);
+	color: #dedede !important;
+	max-width: 400px;
+	padding: 7px;
+	text-rendering: optimizeLegibility;
+}
+
+
+.wps-categories{
+	padding: 1px .9em;
+	background: white;
+	max-width: 293px;
+}
+
+#create_job_long_view {
+	list-style:none;
+
+}
+
+
+.job_description{max-width: 500px;}
+
+/*tables*/
+
+.table-title{
+	min-width:100px;
+	max-width:200px;
+	word-wrap:break-word;
+}
+.table-normal{
+	min-width:100px;
+	max-width:100px;
+	word-wrap:break-word;
+}
+
+/*show/hide categories css style*/
+.label-showhide {
+  /*background-color: #ccc;*/
+  /*color: brown;*/
+  /*padding: 15px;*/
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+  text-align: center;
+}
+
+.toggle-showhide{
+	display:none !important;
+}
+label#hide-button,
+#hidden-content {
+  display: none ;
+}
+
+input#display-toggle:checked ~ label#display-button {
+  display: none;
+}
+
+input#display-toggle:checked ~ label#hide-button {
+  display: block;
+  background-color: #aaa;
+  color: #333
+}
+input#display-toggle:checked ~ #hidden-content {
+  display: block;
+}
+
+
+
+/**********************
+ Pagination links 
+ **********************/
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.hide_pagination{
+	/*display:none;*/
+	background:gray;
+}
+
+.pagination{
+	display: inline-block;
+}
+.pagination_container{
+	text-align: end;
+	float: right;
+/*	right: 0px;
+position: absolute;*/
+}
+
+.table_query_filters{
+	display: inline-flex;
+	width: 100%;
+}
+
+.admin_text{
+	max-width:500px;
+}
+#adminmenuback{
+	/*display:none !important;*/
+}
